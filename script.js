@@ -58,7 +58,7 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!王淑婕，我喜欢你!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `!!!hhhh,得加钱!! ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
