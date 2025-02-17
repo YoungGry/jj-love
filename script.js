@@ -23,7 +23,7 @@ const noTexts = [
   "要不再想想？",
   "不许选这个！ ",
   "我会很伤心…",
-  "不行:(",
+  "好好上班吧！！！！",
 ];
 
 // No 按钮点击事件
@@ -54,10 +54,11 @@ noButton.addEventListener("click", function () {
   if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
   if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
   if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
+  if (clickCount >= 2) noButton.style.display = 'none'
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!喜欢你!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `!!!王淑婕，我喜欢你!! ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
